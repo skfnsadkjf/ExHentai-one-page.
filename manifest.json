@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "ExHentai One Page",
+	"version": "1.0.0",
+	"description": "Opens entire ExHentai galleries in one page.",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "exhentai-one-page@grim.grim"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://exhentai.org/s/*" , "*://e-hentai.org/s/*"],
+			"run_at":"document_end",
+			"js": ["content_script.js"]
+		}
+	]
+}
