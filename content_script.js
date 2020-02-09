@@ -1,5 +1,5 @@
 // ================================-- settings --================================= //
-const PRELOAD_PAGES = 2;
+const PRELOAD_PAGES = 3;
 // ==================================-- code --=================================== //
 const CONTAINER = document.getElementById( 'i3' );
 const httpRequest = ( url ) => {
